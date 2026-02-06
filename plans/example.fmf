@@ -1,0 +1,9 @@
+summary: Basic smoke test
+discover:
+    how: fmf
+execute:
+    how: tmt
+provision:
+    hardware:
+        gpu:
+            vendor-name: NVIDIA
